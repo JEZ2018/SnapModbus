@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\sys">
+      <UniqueIdentifier>{880ee4de-52ad-4f2f-a861-c990c5b8a875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\core">
+      <UniqueIdentifier>{248a8af1-8d9a-4127-bb16-6e3ce9245731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\core">
+      <UniqueIdentifier>{9bda69ea-4db7-42ab-8c1d-9d4ef91994f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\sys">
+      <UniqueIdentifier>{dd6ac748-92d9-47dc-9ef2-a7ff518ebd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\lib">
+      <UniqueIdentifier>{5077b5fc-e6db-47bd-8864-f4988fd8c0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\lib">
+      <UniqueIdentifier>{5ac63cda-3c97-47e1-9905-831b5d1bc026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\sys\snap_evtqueue.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\snap_platform.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\snap_msgsock.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\snap_sersock.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\snap_sysutils.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\snap_tcpsrvr.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\snap_threads.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\unix_threads.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sys\win_threads.h">
+      <Filter>File di intestazione\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\mb_libinterface.h">
+      <Filter>File di intestazione\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_broker.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_defines.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_device.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_netclient.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_fieldcontroller.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_serdevice.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_sthdevice.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_tcpdevice.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_text.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_udpdevice.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_utils.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_serbroker.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_serclient.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_serchannels.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\mb_sercontroller.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\lib\snapmb_libmain.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sys\snap_evtqueue.cpp">
+      <Filter>File di origine\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sys\snap_msgsock.cpp">
+      <Filter>File di origine\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sys\snap_sersock.cpp">
+      <Filter>File di origine\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sys\snap_sysutils.cpp">
+      <Filter>File di origine\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sys\snap_tcpsrvr.cpp">
+      <Filter>File di origine\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sys\snap_threads.cpp">
+      <Filter>File di origine\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\mb_libinterface.cpp">
+      <Filter>File di origine\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_broker.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_device.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_netclient.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_fieldcontroller.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_serdevice.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_sthdevice.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_tcpdevice.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_text.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_udpdevice.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_utils.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_serclient.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_serbroker.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_serchannels.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\mb_sercontroller.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
